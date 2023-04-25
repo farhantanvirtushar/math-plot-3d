@@ -1,0 +1,7 @@
+{
+  "name": "Math Plot 3D",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
