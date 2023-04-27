@@ -15,7 +15,7 @@ export class HomeComponent  implements OnInit {
       image_src:'assets/icon/graph3d.svg'
     },
     {
-      title:'3D Vector Graph Plot',
+      title:'3D Vector Plot',
       url:'/graph3d_vector',
       image_src:'assets/icon/graph3d_vector.svg'
     },
@@ -25,7 +25,7 @@ export class HomeComponent  implements OnInit {
       image_src:'assets/icon/graph2d.svg'
     },
     {
-      title:'2D Vector Graph Plot',
+      title:'2D Vector Plot',
       url:'/graph2d_vector',
       image_src:'assets/icon/graph2d_vector.svg'
     }

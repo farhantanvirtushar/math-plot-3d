@@ -1,18 +1,19 @@
 <div class="container">
 
-  <div class="brand-section"></div>
+  <div class="brand-section">
+    <div class="title">Math Plot 3D</div>
+  </div>
   <div class="menu-section">
-    <mat-grid-list cols="2" rowHeight="400px">
+    <mat-grid-list cols="2" rowHeight="250px">
       <mat-grid-tile *ngFor="let menuItem of menuItems">
         <ion-card>
           <div class="menu-icon-container">
             <img class="menu-icon" src={{menuItem.image_src}} alt={{menuItem.title}} >
           </div>
-          
-        
-          <ion-card-content>
+          <div class="menu-title">
             {{menuItem.title}}
-          </ion-card-content>
+          </div>
+        
         </ion-card>
       </mat-grid-tile>
 

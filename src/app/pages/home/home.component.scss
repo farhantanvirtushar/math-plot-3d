@@ -1,15 +1,31 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  background-color: #4a6491;
+  color: #ffffff;
 }
 
 .brand-section {
-  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+ion-card {
+  --background: var(--ion-color-tertiary-tint);
+  --color: #ffffff;
 }
 
 .menu-section {
-  background-color: rgb(13, 146, 102);
+  padding-top: 100px;
   height: 100vh;
+  background-color: #ffffff;
 }
 
 .menu-icon-container{
@@ -17,9 +33,19 @@
   padding-top: 15px;
 }
 
-.menu-icon{
+.menu-icon {
   height: 150px;
   width: 220px;
+
+}
+
+.menu-title  {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  height: 55px;
 
 }
 @media only screen and (max-width: 850px) {
@@ -29,6 +55,7 @@
   }
   .menu-section {
     width: 100%;
+    border-radius: 80px 80px 0px 0px;
   }
 }
 @media only screen and (min-width: 850px) {
@@ -38,5 +65,7 @@
   }
   .menu-section {
     width: 50%;
+    padding-top: 70px;
+    border-radius: 620px 0px 0px 0px;
   }
 }
