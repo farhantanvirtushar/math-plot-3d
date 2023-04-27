@@ -6,7 +6,7 @@
   <div class="menu-section">
     <mat-grid-list cols="2" rowHeight="250px">
       <mat-grid-tile *ngFor="let menuItem of menuItems">
-        <ion-card>
+        <ion-card (click)="navigateTo(menuItem.url)">
           <div class="menu-icon-container">
             <img class="menu-icon" src={{menuItem.image_src}} alt={{menuItem.title}} >
           </div>
